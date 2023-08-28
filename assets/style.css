@@ -41,6 +41,14 @@ section {
     border-radius: 8px;
 }
 
+/* .box {
+    background-color: black;
+    border: 2px, solid white;
+    border-radius: 8px;
+    margin: auto;
+    padding: 20px;
+} */
+
 .quiz-results {
     text-align: center;
     color: black;
