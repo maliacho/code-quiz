@@ -16,14 +16,14 @@ body {
     height: 50px;
     line-height: 10px;
     margin-top: 10px;
+    cursor: grab;
 }
 
 header {
     padding: 40px;
     text-align: center;
-    background-color: #0027AD;
-    color: white;
-}
+    color: black;
+} 
 
 main {
     display: flex;
@@ -39,15 +39,15 @@ section {
     margin-top: 50px;
     background-color: white;
     border-radius: 8px;
-}
+} 
 
-/* .box {
+.box {
     background-color: black;
     border: 2px, solid white;
     border-radius: 8px;
     margin: auto;
     padding: 20px;
-} */
+} 
 
 .quiz-results {
     text-align: center;
@@ -68,6 +68,7 @@ section {
     height: 30px;
     line-height: 10px;
     margin-top: 10px;
+    cursor: grab;
 }
 
 #clear-scores {
@@ -75,6 +76,7 @@ section {
     height: 30px;
     line-height: 10px;
     margin-top: 10px;
+    cursor: grab;
 }
 
 #submit-button {
@@ -82,6 +84,7 @@ section {
     height: 30px;
     line-height: 10px;
     margin-top: 10px;
+    cursor: grab;
 }
 
 .timer {
@@ -94,5 +97,4 @@ section {
 
 .timer-count {
     font-size: 50px;
-}
-
+} 
