@@ -17,6 +17,7 @@ THEN I can save my initials and my score
 I still need to practice with JavaScript and become more confident with it. I will be returning to this project to finish it, but this is as far as I was able to get today. 
 
 ### Screenshot 
+![Screenshot 2023-08-29 at 9 32 52 PM](https://github.com/maliacho/code-quiz/assets/141271179/a1b045a3-b605-4028-b5fd-1725f3579009)
 
 
 
