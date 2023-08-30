@@ -65,8 +65,10 @@ timer.textContent = "No time Left"
 // begin quiz
 function startQuiz () {
     let displayQuestion = questions[i];
-
-
+    document.getElementById("quiz").textContent = displayQuestion.question
+    for (var i = 0; i < questions.length; i++); {
+        let answer = displayQuestion.answer[i]
+    }
 
 
 
