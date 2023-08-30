@@ -3,36 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coding Quiz Challenge</title>
+    <title>Community Quiz</title>
     <link rel="stylesheet" href="./assets/style.css"/>
     <script defer src="./assets/script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Coding Quiz Challenge</h1>
-        <p>Test your knowledge and see how much you know about coding! Press 'Start' to begin.</p>
-        <button class="start-button">Start Quiz</button>
+       <nav>
+            <a href="#">View Scoreboard</a>
+       </nav>
     </header>
     <main>
         <section>
-            <div class="quiz">
-            </div>
+            <h1>Community Quiz</h1>
+            <p id="title">Test your knowledge and see how much you know about NBC's hit show Community! Press 'Start' to begin.</p>
+            <button class="start-button">Start Quiz</button>
+        </section>
+        <section>
+            <div class="quiz"></div>
         </section>
 
         <section>
             <div class="timer">
                 <div class="timer-text">
-                <div class="timer-count">10</div>
+                <div class="timer-count">30</div>
                 <h3>seconds remaining</h3>
                 </div>
             </div>
-            <div class="quiz-results">
+            <div class="quiz-results hide">
                 <div>
-                <h2>Enter your initials</h2>
+                <h2>Great Job!</h2>
                 </div>
+                <form id="user-info">
+                    <label for="player-initials">Enter your Initials:</label>
+                    <input type="text" id="player-initials">
+                </form>
                 <button id="submit-button">Submit</button>
             </div>
-            <div class="score-board">
+            <div class="score-board hide">
                 <h2>Score Board</h2>
                 <button id="go-back">Go Back</button>
                 <button id="clear-scores">Clear Scoreboard</button>
